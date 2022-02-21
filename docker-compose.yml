@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    container_name: yunjin_app
+    build:
+      context: .
+    volumes:
+      - '.:/app'
+    ports:
+      - '1190:1190'

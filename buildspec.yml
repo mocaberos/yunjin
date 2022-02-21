@@ -1,0 +1,32 @@
+version: 0.2
+
+env:
+  shell: bash
+
+phases:
+  install:
+    commands:
+      - export PATH=$PATH:$(pwd)/vendor/codebuild-scripts
+      - docker-login
+  pre_build:
+    commands:
+      - |
+        #
+        # Execute test.
+        #
+
+  build:
+    commands:
+      - |
+        #
+        # Deploy to Development
+        #
+        if trigger is merge development; then
+
+        fi;
+  post_build:
+    commands:
+      - |
+        #
+        # Notify result
+        #
