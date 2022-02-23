@@ -1,0 +1,6 @@
+[submodule "vendor/codebuild-scripts"]
+	path = vendor/codebuild-scripts
+	url = https://github.com/mocaberos/codebuild-scripts.git
+[submodule "vendor/shell-scripts"]
+	path = vendor/shell-scripts
+	url = https://github.com/mocaberos/shell-scripts.git

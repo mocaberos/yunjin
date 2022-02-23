@@ -8,6 +8,7 @@ phases:
     commands:
       - export PATH=$PATH:$(pwd)/vendor/codebuild-scripts
       - docker-login
+      - ecr-login
   pre_build:
     commands:
       - |

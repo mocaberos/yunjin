@@ -2,6 +2,6 @@
 #
 # アプリケーションを起動する
 #
-set -e;
+set -eu;
 
 docker-compose up
